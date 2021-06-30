@@ -1,1 +1,1 @@
-Initial Repository Commit
+Initial Commit
