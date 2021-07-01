@@ -1,16 +1,17 @@
 #PSEUDOCODING
 #Open the data file.
-#Write down the names of all the candidates.A complete list of candidates who received votes
+#Write down the names of all the candidates. A complete list of candidates who received votes
 #Add a vote count for each candidate.
-#Total number of votes cast
-#Get the total votes for each candidate.
-#Get the total votes cast for the election.
-#Percentage of votes each candidate won
-#The winner of the election based on popular vote
+#3.3.2 Total number of votes cast
+#3.3.2 Get the total votes for each candidate.
+#3.3.2 Get the total votes cast for the election.
+#3.3.2 Percentage of votes each candidate won
+#3.3.2 The winner of the election based on popular vote
 #voter turnout for each county
 #percentage of votes from each county out of the total count
 #county with the highest turnout
 
+#Ching GOw
 #Narritive. use for loops and conditional statements with membership and logical operators to find the requested results. 
 #Deliverable 1: The Election Results Printed to the Command Line
 #Deliverable 2: The Election Results Saved to a Text File election_results.txt file.
@@ -38,28 +39,36 @@ candidate_vote_dict['Arapahoe']=422829
 candidate_vote_dict
 #nothing happened. 3.2.7
 
-###Step 2
-#3.2.7 Create and add Keys and values to a Dictionary
-#initialize empty list for 
-candidate_options=[]
-#To get the number of registered voters in A County ---wrap the key in brackets.candidate_vote_dict
-candidate_vote_dict['Arapahoe']
+#candidate name list and dictionary
+candidate_name=['Charles Casper Stockham','Diana DeGette','Raymon Anthony Doane']
+    #not sure if this is of value here...
+candidate_name_dict()=dict()
+    #why is this in red?
+    #not sure if this is of value here...trying to associate county to name of candidate.
+    #not sure how to call candidates and make the association.
 
-#nothing happended. per 3.2.7 i should have output.
-#length of dictionary. run. i have hello world onhly. Yellow dot at line 40
+###Step 2
+#3.2.7 Create and add Keys and values to a dictionary
+    #initialize empty list for 
+candidate_options=[]
+    #To get the number of registered voters in A County ---wrap the key in brackets.candidate_vote_dict
+candidate_vote_dict['Arapahoe']
+    #nothing happended. per 3.2.7 i should have output.
+    #length of dictionary. run. i have hello world onhly. Yellow dot at line 40
+
 len(candidate_vote_dict)
-#To get all the keys and values printed to the screen, simply print the dictionary name. 
+    #To get all the keys and values printed to the screen, simply print the dictionary name. 
 print('candidate_vote_dict')
-#na. it only printed the string, not the dict.
+    #na. it only printed the string, not the dict.
 candidate_vote_dict.items()
 
 #nope
 candidate_vote_dict.keys()
 candidate_vote_dict.values()
 candidate_vote_dict.get('Denver')
-#run and well --- nope. Hmm
-##initialize Initialize an empty string, like winning_candidate, 
-#that will hold the county name for the county with the largest turnout.
+    #run and well --- nope. Hmm
+        ##initialize Initialize an empty string, like winning_candidate, 
+        #that will hold the county name for the county with the largest turnout.
 winning_candidate=[]
 
 ##Initialize a variable, like the winning_count variable, 
@@ -74,39 +83,87 @@ voting_data=[]
 voting_data.append({"county":"Arapahoe", "registered_voters": 422829})
 voting_data.append({"county":"Denver", "registered_voters": 463353})
 voting_data.append({"county":"Jefferson", "registered_voters": 432438})
-#Ok`...not sure why this is here. or how to tell if this works. 
-#Does this list need to be zeroed out?
-#Hmm...nope . no output 3.2.7
-
-#3.2.8 #Use Decision Statemnts to check a condition
-#Checking on Boolean to retrieve is data condition is true or false.
-
-
-#3.2.9 apply Membership and local operators to decision statements
+    #Ok`...not sure why this is here. or how to tell if this works. 
+    #Does this list need to be zeroed out?
+    #Hmm...nope . no output 3.2.7
 
 #3.2.10 Use Repetition statements to iterate through a list or Dictionary
-
-#3.2.11 Write print statements using f-strings
+#When writing an algorithm that performs the same task over and over, 
+# it's a lot easier to write the code for the algorithm once, 
+# and then place that algorithm in a repetition structure 
+# that can be repeated as many times as necessary.
+    #this will be required for the RTM.
+#for loops == a req uired number of times.
+#while loops uses a T/F condition 
+    #X=0
+    #while x,=5:
+        #print(x)
+        #x=x+1
 
 ###Step 3 
 #While reading the election results from each row inside the for loop, 
 # write a script that gets the county name from each row.
+    #iterate through a dictionary..no.3.2.10
 
 ##Step4a
 #Write a decision statement with a logical operator to check 
 #if the county name acquired in Step 3 is in the county list you created in Step 1.
+    #decision statement somthing like.3.2.8
+    #   counties = ["Arapahoe","Denver","Jefferson"]
+    #   if counties[1] == 'Denver':
+    #   print(counties[1])
+#iterate through lists and tuples
+    #for county in counties:
+        #print(county)
+    #for num in range(5):
+    # #print(5)
+#iterate through a tuple
+    #counties_tuple=('Arapahoe','Denver','Jefferson')
+#indexing used to iterate through a list
+    #for i in range (len(counties)):
+    #print (counties[1])
+
+
+#3.2.8 #Use Decision Statements to check a condition
+#Decision statements are widely used by programmers because they often need
+#to retrieve data from a large dataset that meets certain criteria.
+#So what to check? Checking on Boolean to retrieve is data condition is true or false.
+
+##How many votes did you get? thinking to add candidate names here.
+    #my_votes = int(input("How many votes did you get in the election? "))
+    #Total votes in the election
+    #total_votes = int(input("What is the total votes in the election? "))
+    #Calculate the percentage of votes you received.
+    #Percentage_votes = (my_votes / total_votes) * 100
+    #Print("I received " + str(percentage_votes)+"% of the total votes.")
+    #3.2.9 Apply Membership and local operators to decision statements
+    #Deleverable operators == < > =
+        #Could also use if-else statement
+            #if condition:
+                #  statement 1
+                #  statement 2
+            #else:
+                #   statement 1
+                #   statement 2
+
+#Punt.
 
 ##Step4b
 #If the county is not in the list created in Step 1, 
 #add it to the list of county names like you did when adding a candidate to the
+#Append()
+#Counties.append('ElPaso')
 
 ##Step4c
 #Write a script that initializes the county vote to zero, 
 #like you did when you began to track the vote counts for the candidates.
+county_vote=[]
+#ok now what?
 
 ##Step5
 #Write a script that adds a vote to the county’s vote count as you are looping through all the rows, 
 #like you did for the candidate’s vote count.
+
 
 ##Step6a
 #Write a repetition statement to get the county 
@@ -115,23 +172,56 @@ voting_data.append({"county":"Jefferson", "registered_voters": 432438})
 ##Step6b
 #Initialize a variable to hold the county’s 
 #votes as they are retrieved from the county votes dictionary.
+county_votes_dict={}
+#Ok.initialized. How does this work?
 
 ##Step6c
 #Write a script that calculates the county’s 
-# votes as a percentage of the total votes.
+#votes as a percentage of the total votes.
+#some thing like
+    ##How many votes did you get? thinking to add candidate names here.
+    #my_votes = int(input("How many votes did you get in the election? "))
+    #Total votes in the election
+    #total_votes = int(input("What is the total votes in the election? "))
+    #Calculate the percentage of votes you received.
+    #Percentage_votes = (my_votes / total_votes) * 100
+    #Print("I received " + str(percentage_votes)+"% of the total votes.")
+
 
 ##Step6d
 #Write a print statement that prints the current county, 
 #its percentage of the total votes, and its total votes to the command line.
+#3.2.11 Write print statements using f-strings literals 3.2.11
+print('Hello')
+#my_votes = int(input("How many votes did you get in the election? "))
+#total_votes = int(input("What is the total votes in the election? "))
+
+    #print(# Percent of total for current county) (f"I received {my_votes / total_votes * 100}% of the total votes.") county percent
+    #print('County total votes') same same
 
 ##Step6e
 #Write a print statement that prints the current county, 
-#its percentage of the total votes, and its total votes to the command line.
+#its percentage of the total votes, and its total votes to text file.
+#Deliverable#2
+#3.2.10 write data to file election_results.txt
+#3.2.11 Write print statements using f-strings
+
 
 ##Step6f
 #Write a decision statement that determines the county 
 #with the largest vote count and then adds that county 
 #and its vote count to the variables created in Step 2.
+#?
+#punt
 
-##Step 7 
+##Step7 
 #Write a print statement that prints out the county with the largest turnout.
+#3.2.11 Write print statements using f-strings
+    #print(# Percent of total for current county) (f"I received {my_votes / total_votes * 100}% of the total votes.") county percent
+    #print('County total votes') same same
+
+##Step8
+#write script that save the county with the largest turnout to election_results.txt file.
+#3.2.11 Write print statements using f-strings
+    #print(# Percent of total for current county) (f"I received {my_votes / total_votes * 100}% of the total votes.") county percent
+    #print('County total votes') same same
