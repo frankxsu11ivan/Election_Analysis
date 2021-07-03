@@ -26,8 +26,25 @@ The written overview analysis of the election is the following:
 #county with the highest turnout
 #Ching Gow!
 
-The Module 3 narritive of the analysis.
+The Module Deliverable 3 Overview of the election analysis.
 the scripting went relatively well although the challenge was not able to use python in Gitbash.
-Print'Hello world' was effective and there alot of time was spent trying to debug.
-overall analysis is to execute python to run, sort and calcutate values.then execute pyton to preform calculations on data structures.
-the election results are read to text file (#in progress) and to the command line.
+Print 'Hello world' was effective and there alot of time was spent trying to debug.
+Overall analysis is to execute python to run, sort and calculate values. Then execute python to preform calculations on data structures.
+The election results are read to text file (#in progress) and to the command line.
+
+Election-Audit Results
+Votes cast == 369,711
+County votes and percentages == CCS:23% (85,213), DG:73% (272,892), RD:3% (11,606)
+County Winning votes and Winning Percentage == 272,892, 73%
+Breakdown candidate Charles 23% (85,213)
+Breakdown candidate Dianne 73% (272,892)
+Breakdown candidate Raymond 3% (11,606)
+Winning candidate won the election is Dianne with 73% of the count and total vote being 272,892
+
+Election-Audit Summary.
+This script can be used by the election commission to gather data and sparse sort and analyze results. 
+Data can be gathered and quickly tracked with a working script. then the Candidates can take this data and use for future campaigns.
+
+
+
+
