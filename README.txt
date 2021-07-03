@@ -1,3 +1,3 @@
 
 README deliverable #1 sent to terminal
-Pict has results
+Pict Output Wk 3 has results
