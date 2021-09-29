@@ -16,6 +16,8 @@ the analysis of election through the districts showed that there was no turn out
 the voting public are indifferent.
 the winner from this analysis is Dianne Degatte with the low turnout and percentage of 73.8%
 the return on the largest vote district is denver with 82.8%
+attached is the output pict. https://github.com/frankxsu11ivan/Election_Analysis/blob/main/Picts/Step%207%20winning%20Canidate.png
+
 
 	
 
