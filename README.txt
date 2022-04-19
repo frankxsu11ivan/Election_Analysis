@@ -1,4 +1,4 @@
-Overview of Module 3.
+Overview of Module 3
 
 Module 3 is Python.
 
